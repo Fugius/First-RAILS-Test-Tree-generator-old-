@@ -1,0 +1,25 @@
+<p> Return Home ! :D <p>
+<%= form_tag "/sapin", method: "post" do %>
+	<input type="submit" name="Home" />
+<% end %> 
+
+<% require 'sapin' %>
+
+<% @nowel.each do |i| %>
+	<% @size = i.number %>
+<% end %>
+
+<% if @size.nil? or @size.to_i < 5 %>
+	<% @size = 5 %>
+<% end %>
+
+
+<% sapin = Sapin.new(@size.to_i) %>
+
+<% sapin.Lignes.each do |i| %>
+	<%== i %>
+	<br />
+<% end %>
+
+<p> Press F5 multiples times, it's fun :3 </p>
+<p> Happy Christmass ! :D </p>

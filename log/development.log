@@ -1,0 +1,1671 @@
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:17:55 +0100
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/hawke/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/hawke/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/hawke/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.4ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.6ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.6ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (13.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (26.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-24 23:17:57 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:18:24 +0100
+
+ActionController::RoutingError (No route matches [GET] "/index"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/hawke/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/hawke/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/hawke/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (16.7ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.5ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.6ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 694ms (Views: 688.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:18:37 +0100
+  [1m[36m (102.2ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (108.1ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreateNowels (20151224221931)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "nowels" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "number" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151224221931"]]
+  [1m[35m (106.5ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)  [["number", 5], ["created_at", "2015-12-24 22:22:14.876085"], ["updated_at", "2015-12-24 22:22:14.876085"]]
+  [1m[36m (78.5ms)[0m  [1mcommit transaction[0m
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:34:53 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/pages_controller.rb:11:in `send'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.8ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (12.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-24 23:37:31 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-4.2.4/lib/rails/templates/rails/welcome/index.html.erb (0.4ms)
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:37:35 +0100
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/pages_controller.rb:11:in `send'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (14.8ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (16.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (27.5ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:38:29 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+Completed 500 Internal Server Error in 0ms (ActiveRecord: 0.0ms)
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/pages_controller.rb:11:in `send'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (2.9ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (6.4ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.5ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.2ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:39:06 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 155ms (Views: 146.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:07 +0100
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:39:12 +0100
+Processing by PagesController#env as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tgXMu3iy5T+FhE6bhJ3bUjMhXrkTZgOL7rrcbyRNsNI1phdyKS0YKTaNhO/V21owZa+UjaIPZDznMu3+rfwIYQ==", " "=>"6", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 22:39:12.449048"], ["updated_at", "2015-12-24 22:39:12.449048"]]
+  [1m[35m (85.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 93ms (ActiveRecord: 86.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:39:12 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 17ms (Views: 16.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:39:33 +0100
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:39:37 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 18ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:39:42 +0100
+Processing by PagesController#env as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wiiw3Ej7sn3QlSwNL3x9u+16lV5K0jkYTi0fiXaFP7VBi2sVGWRPa2Oc5nl+OvzZu/Rfavu7Xq9HpS4Y/zSHBg==", " "=>"3333", "Get my Xmas tree"=>"Valider"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2015-12-24 22:39:42.107610"], ["updated_at", "2015-12-24 22:39:42.107610"]]
+  [1m[36m (114.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 116ms (ActiveRecord: 114.3ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:39:42 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 147ms (Views: 139.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:41:48 +0100
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:41:52 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:41:56 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TN95gUSsa2r8WUe10JWhgks/Zpt32ER8wVy9KY21UbnPfKJIFTOWfE9QjcGB0yDgHbGsr8axI8vI1Iy4BATpCg==", " "=>"333", "Get my Xmas tree"=>"Valider"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", "2015-12-24 22:41:56.995595"], ["updated_at", "2015-12-24 22:41:56.995595"]]
+  [1m[36m (92.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 98ms (ActiveRecord: 92.4ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:41:57 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 24ms (Views: 23.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:42:08 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 16ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+  [1m[36mNowel Load (0.8ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  [1m[35mNowel Load (0.2ms)[0m  SELECT  "nowels".* FROM "nowels" WHERE "nowels"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "nowels" WHERE "nowels"."id" = ?  [["id", 1]]
+  [1m[36m (165.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mNowel Load (0.1ms)[0m  SELECT  "nowels".* FROM "nowels" WHERE "nowels"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "nowels" WHERE "nowels"."id" = ?  [["id", 2]]
+  [1m[36m (75.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mNowel Load (0.1ms)[0m  SELECT  "nowels".* FROM "nowels" WHERE "nowels"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "nowels" WHERE "nowels"."id" = ?  [["id", 3]]
+  [1m[36m (72.8ms)[0m  [1mcommit transaction[0m
+  [1m[35mNowel Load (0.1ms)[0m  SELECT  "nowels".* FROM "nowels" WHERE "nowels"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.1ms)[0m  DELETE FROM "nowels" WHERE "nowels"."id" = ?  [["id", 4]]
+  [1m[36m (72.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 141ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:47:55 +0100
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:47:59 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mP8hCgRTLX1M9KjlOSbsJj3Ilk2tAzT6bdB2zQL8hHYbXPrDVczQa//9YpFoYG1Ea0ZceRxqU01kWEdci008xQ==", "number"=>"666", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 666], ["created_at", "2015-12-24 22:47:59.777967"], ["updated_at", "2015-12-24 22:47:59.777967"]]
+  [1m[35m (93.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 101ms (ActiveRecord: 93.5ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:47:59 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:48:18 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 24ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 149ms (Views: 142.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:52:39 +0100
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:52:43 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G3WRRdA//Uj5tVfMNjzcUX7q1Ra46jXcvflLLx5xZ0GY1kqMgaAAXkq8nbhnel0zKGQfIgmDUmu0cXq+l8Df8g==", "number"=>"15", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 15], ["created_at", "2015-12-24 22:52:43.989450"], ["updated_at", "2015-12-24 22:52:43.989450"]]
+  [1m[35m (76.5ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 85ms (ActiveRecord: 77.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:52:44 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 12ms (Views: 11.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:52:48 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 28ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:52:54 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m+BrQRhJoGUqx4EBlj5QKXdDphmdgQ+LHYyVIjFpNrIYQ7CISdZdc5nOS3XHeNFLIc1sLSzoaDwUBKSzuNiOAQ==", "number"=>"50", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 50], ["created_at", "2015-12-24 22:52:54.877465"], ["updated_at", "2015-12-24 22:52:54.877465"]]
+  [1m[35m (90.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 93ms (ActiveRecord: 90.6ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:52:54 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:53:10 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 20ms (Views: 18.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:53:14 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"JrxRTb3bobIkUjXrOjDLUMTnxX7DbF0rdKS0P42sz82lH4qE7ERcpJdb/59rdkoykmkPSnIFOpx9LIWuBB13fg==", "number"=>"", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 22:53:14.142188"], ["updated_at", "2015-12-24 22:53:14.142188"]]
+  [1m[35m (77.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 80ms (ActiveRecord: 77.2ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:53:14 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (8.5ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (negative array size):
+     6: 	<% @size = i.number %>
+     7: <% end %>
+     8: 
+     9: <% sapin = Sapin.new(@size.to_i) %>
+    10: 
+    11: <% sapin.Lignes.each do |i| %>
+    12: 	<%== i %>
+  lib/sapin.rb:8:in `initialize'
+  lib/sapin.rb:8:in `new'
+  lib/sapin.rb:8:in `initialize'
+  app/views/pages/sapin.html.erb:9:in `new'
+  app/views/pages/sapin.html.erb:9:in `_app_views_pages_sapin_html_erb___222690478291928595_70111986930380'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.9ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.8ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.7ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:56:57 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 144ms (Views: 136.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:00 +0100
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:57:02 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+g4z59aM0NcKx4yAAxZKaE5SOHZviU1Tvf1zj7UmtY55reguhxMtwbnORvRSUMsKGNzyQt7gKuS0dUIePJcNPQ==", "number"=>"", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 22:57:02.523684"], ["updated_at", "2015-12-24 22:57:02.523684"]]
+  [1m[35m (63.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 71ms (ActiveRecord: 63.9ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:02 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.1ms)
+
+ActionView::Template::Error (negative array size):
+    11: <% end %>
+    12: 
+    13: 
+    14: <% sapin = Sapin.new(@size.to_i) %>
+    15: 
+    16: <% sapin.Lignes.each do |i| %>
+    17: 	<%== i %>
+  lib/sapin.rb:8:in `initialize'
+  lib/sapin.rb:8:in `new'
+  lib/sapin.rb:8:in `initialize'
+  app/views/pages/sapin.html.erb:14:in `new'
+  app/views/pages/sapin.html.erb:14:in `_app_views_pages_sapin_html_erb___1634713538588075167_69978675275800'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.6ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.7ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.7ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:57:22 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 149ms (Views: 141.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:57:24 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GsKeSD2XFIQgXJt7cuHbNrIzDJqHBCkOLQiRTVbYpUWZYUWBbAjpkpNVUQ8jp1pU5L3GrjZtTrkkgKDc32kd9g==", "number"=>"", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 22:57:24.018590"], ["updated_at", "2015-12-24 22:57:24.018590"]]
+  [1m[35m (87.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 95ms (ActiveRecord: 87.7ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:24 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:30 +0100
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:57:32 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:57:36 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NiQ3T+BvicTKegw9KeLqOk1e99x8YwCZj5rl5uxRyi+1h+yGsfB00nlzxkl4pGtYG9A96M0KZy6GEtR3ZeBynA==", "number"=>"30", "Get my Xmas tree"=>"Valider"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)  [["number", 30], ["created_at", "2015-12-24 22:57:36.280087"], ["updated_at", "2015-12-24 22:57:36.280087"]]
+  [1m[36m (61.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 64ms (ActiveRecord: 61.5ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:36 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 23ms (Views: 22.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 17ms (Views: 16.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:38 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:39 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:40 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:41 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:42 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:43 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:44 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-24 23:57:45 +0100
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:58:42 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 156ms (Views: 148.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-24 23:58:47 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SM9MisiZ6j7DynH/9wwMWBhgsiVLCKGfIaWJ/CehIz/LbJdDmQYXKHDDu4umSo06Tu54EfphxigoLbhtrhCbjA==", "number"=>"99", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 99], ["created_at", "2015-12-24 22:58:47.550018"], ["updated_at", "2015-12-24 22:58:47.550018"]]
+  [1m[35m (71.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 79ms (ActiveRecord: 72.3ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-24 23:58:47 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 36ms (Views: 35.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-24 23:58:56 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-25 00:01:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 153ms (Views: 146.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:01:35 +0100
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:37 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BieWOBlQnmguWG9CqKsu0OA77PwIbVPuDMVV22NqwIeFhE3xSM9jfp1RpTb57a+ytrUmyLkENFkFTWRK6tt4NA==", "number"=>"33", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 33], ["created_at", "2015-12-24 23:01:37.631003"], ["updated_at", "2015-12-24 23:01:37.631003"]]
+  [1m[35m (146.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 155ms (ActiveRecord: 146.9ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:37 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:40 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"1l+fQyB4R5TFN3G/0xarWQXY0LinzYcBbPq3v/IrB65V/ESKcee6gnY+u8uCUCo7U1YajBak4LZlcoYue5q/HQ=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 23:01:40.187134"], ["updated_at", "2015-12-24 23:01:40.187134"]]
+  [1m[35m (170.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 173ms (ActiveRecord: 170.3ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:40 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:47 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"BdCPKEVK5XwmZiMOJz0nbPTCKzKTh6z8MtwmZF8IOS6Gc1ThFNUYapVv6Xp2e6YOokzhBiLuy0s7VBf11rmBnQ=="}
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 23:01:47.788286"], ["updated_at", "2015-12-24 23:01:47.788286"]]
+  [1m[35m (66.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 69ms (ActiveRecord: 67.0ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:47 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.3ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:48 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"Cd5kqnBwVgW6xofg7Dz39pITVSrTST1WjITge4/OnlCKfb9jIe+rEwnPTZS9enaUxJ2fHmIgWuGFDNHqBn8m4w=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 23:01:48.564276"], ["updated_at", "2015-12-24 23:01:48.564276"]]
+  [1m[35m (82.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 86ms (ActiveRecord: 82.4ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:48 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 15ms (Views: 14.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:49 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"9xXVvCCjGrUmVcr1OJPfDg3bqlF9kTDdHi7AICrwoZF0tg51cTzno5VcAIFp1V5sW1VgZcz4V2oXpvGxo0EZIg=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 23:01:49.545562"], ["updated_at", "2015-12-24 23:01:49.545562"]]
+  [1m[35m (101.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 104ms (ActiveRecord: 102.0ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:49 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:50 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"7y2LZ79tLozP/h51xufl1EIYdSWrw1YVzvs9yO97yp9sjlCu7vLTmnz31AGXoWS2FJa/ERqqMaLHcwxZZspyLA=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 23:01:50.499391"], ["updated_at", "2015-12-24 23:01:50.499391"]]
+  [1m[35m (89.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 92ms (ActiveRecord: 89.6ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:50 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:01:51 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"authenticity_token"=>"GwHZlMV81LDSBtqRbXIeC9k0zQsaTv1B6uVIsBlb63yYogJdlOMppmEPEOU8NJ9pj7oHP6snmvbjbXkhkOpTzw=="}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2015-12-24 23:01:51.484728"], ["updated_at", "2015-12-24 23:01:51.484728"]]
+  [1m[35m (95.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 98ms (ActiveRecord: 96.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:01:51 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-25 00:05:27 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 141ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:05:30 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"obHd5jl9oCFIARSt2W3dl27m7RAyXqtybch2UzUcNV4iEgYvaOJdN/sI3tmIK1z1OGgnJIM3zMVkQEfCvK2N7Q==", "number"=>"33", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 33], ["created_at", "2015-12-24 23:05:30.263551"], ["updated_at", "2015-12-24 23:05:30.263551"]]
+  [1m[35m (150.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 158ms (ActiveRecord: 151.3ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:05:30 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 30ms (Views: 29.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:33 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.2ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 16ms (Views: 15.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:05:34 +0100
+
+
+Started POST "/sapin" for 127.0.0.1 at 2015-12-25 00:05:59 +0100
+Processing by PagesController#back as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G438qyxd12aaCh0Uw4g4r3+2MsilFuLMFOSk0ug/ZFuYLidifcIqcCkD12CSzrnNKTj4/BR/hXsdbJVDYY7c6A==", "Home"=>"Valider"}
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-25 00:05:59 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:06:32 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bpoj+vq1B/xE8sflMj4+8QDCBZj97hxE7IxJNljkAwntOfgzqyr66vf7DZFjeL+TVkzPrEyHe/PlBHin0VW7ug==", "number"=>"55", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 55], ["created_at", "2015-12-24 23:06:32.620298"], ["updated_at", "2015-12-24 23:06:32.620298"]]
+  [1m[35m (99.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 117ms (ActiveRecord: 100.5ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:06:32 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 137ms (Views: 135.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/sapin" for 127.0.0.1 at 2015-12-25 00:06:37 +0100
+Processing by PagesController#back as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RY1SFBcluu5eoESDjVuZNGmvGGazccMfLPBInI+e5yTGLondRrpH+O2pjvfcHRhWPyHSUgIYpKgleHkNBi9flw==", "Home"=>"Valider"}
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-25 00:06:37 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 7.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:06:44 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NH09c5C7h/xDdNkWLfI1b01ioiMy/xrhKdRAKYyowt233ua6wSR66vB9E2J8tLQNG+xoF4OWfVYgXHG4BRl6bg==", "number"=>"1", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 1], ["created_at", "2015-12-24 23:06:44.346150"], ["updated_at", "2015-12-24 23:06:44.346150"]]
+  [1m[35m (67.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 69ms (ActiveRecord: 67.2ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:06:44 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.2ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (3.9ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.2ms)
+
+ActionView::Template::Error (no implicit conversion from nil to integer):
+    14: <% end %>
+    15: 
+    16: 
+    17: <% sapin = Sapin.new(@size.to_i) %>
+    18: 
+    19: <% sapin.Lignes.each do |i| %>
+    20: 	<%== i %>
+  lib/sapin.rb:25:in `*'
+  lib/sapin.rb:25:in `initialize'
+  app/views/pages/sapin.html.erb:17:in `new'
+  app/views/pages/sapin.html.erb:17:in `_app_views_pages_sapin_html_erb__362100147672730443_69914049469800'
+
+
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.9ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.0ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.6ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (11.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /home/hawke/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (24.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 151ms (Views: 143.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:06 +0100
+
+
+Started POST "/sapin" for 127.0.0.1 at 2015-12-25 00:07:08 +0100
+Processing by PagesController#back as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IaUuBcW65C8PnoLhH3Ko/rU5GOwIcNf/mC+hixmqRk2iBvXMlCUZObyXSJVONCmc47fS2LkZsEiRp5AakBv+/g==", "Home"=>"Valider"}
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-25 00:07:08 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:07:12 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"GQaHi/LxLPwHM819kDW/04nnlgDVpBXk0EGEv5CY0jOapVxCo27R6rQ6BwnBcz6x32lcNGTNclPZybUuGSlqgA==", "number"=>"15", "Get my Xmas tree"=>"Valider"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)  [["number", 15], ["created_at", "2015-12-24 23:07:12.804450"], ["updated_at", "2015-12-24 23:07:12.804450"]]
+  [1m[36m (117.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 122ms (ActiveRecord: 117.4ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:07:12 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 26ms (Views: 17.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 20ms (Views: 18.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+Processing by PagesController#sapin as HTML
+  [1m[35mNowel Load (0.1ms)[0m  SELECT "nowels".* FROM "nowels"
+  Rendered pages/sapin.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:24 +0100
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.3ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/pages.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-12-25 00:07:25 +0100
+
+
+Started POST "/sapin" for 127.0.0.1 at 2015-12-25 00:07:26 +0100
+Processing by PagesController#back as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BMiaEOyCnYqDKF97a+oluHTHbBT3sTbpotVIg4ZDBBaHa0HZvR1gnDAhlQ86rKTaIkmmIEbYUV6rXXkSD/K8pQ==", "Home"=>"Valider"}
+Redirected to http://localhost:3000/index
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2015-12-25 00:07:26 +0100
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/index" for 127.0.0.1 at 2015-12-25 00:07:32 +0100
+Processing by PagesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9Eejf+SyTAiHwaQQATy6c0e6FCR5cDQZh0wd3iIup2x35Hi2tS2xHjTIbmRQejsRETTeEMgZU66OxCxPq58f3w==", "number"=>"900", "Get my Xmas tree"=>"Valider"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "nowels" ("number", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["number", 900], ["created_at", "2015-12-24 23:07:32.614103"], ["updated_at", "2015-12-24 23:07:32.614103"]]
+  [1m[35m (60.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/sapin
+Completed 302 Found in 64ms (ActiveRecord: 60.7ms)
+
+
+Started GET "/sapin" for 127.0.0.1 at 2015-12-25 00:07:32 +0100
+Processing by PagesController#sapin as HTML
+  [1m[36mNowel Load (0.1ms)[0m  [1mSELECT "nowels".* FROM "nowels"[0m
+  Rendered pages/sapin.html.erb within layouts/application (215.2ms)
+Completed 200 OK in 269ms (Views: 261.6ms | ActiveRecord: 0.1ms)
